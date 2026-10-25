@@ -1,0 +1,63 @@
+PREMIER CAS :
+DONNEE UTILISEE:
+
+Code du plat: 1	
+Quantité : 3
+Montant versé : 5 000 FCFA
+
+Commande excutée: PS C:\Users\DELL\Downloads\cantine-KAMAGATE-Junior> node .\cantine.js
+
+sortie obtenue : 
+
+NOM DU CLIENT : Awa
+LES DIFFERENTES PORTIONS COMMANDEES :
+portion 1 de : Attiéké-poisson fait: 1500 F CFA.
+portion 2 de : Attiéké-poisson fait: 1500 F CFA.
+portion 3 de : Attiéké-poisson fait: 1500 F CFA.
+TOTAL DE LA COMMANDE : 4500 F CFA.
+MONTANT VERSE : 5000 F CFA.
+MONNAIE A RENDRE:500 FCFA
+
+
+
+
+
+
+DEUXIEME CAS
+
+DONNEE UTILISEE:
+Code du plat: 2	
+Quantité : 2
+Montant versé : 3 000 FCFA
+
+Commande excutée: PS C:\Users\DELL\Downloads\cantine-KAMAGATE-Junior> node .\cantine.js
+
+sortie obtenue : 
+NOM DU CLIENT : Awa
+LES DIFFERENTES PORTIONS COMMANDEES :
+portion 1 de : Riz-poulet fait: 2000 F CFA.
+portion 2 de : Riz-poulet fait: 2000 F CFA.
+TOTAL DE LA COMMANDE : 4000 F CFA.
+MONTANT VERSE : 3000 F CFA.                                   
+SOMME MANQUANTE:1000 FCFA   
+VEUILLEZ S'IL VOUS PLAIT AJOUTER LA SOMME DE 1000 FCFA POUR AINSI FINALISER VOTRE COMMANDE, MERCI!!!
+
+TROISIEME CAS
+
+DONNEE UTILISEE:
+Code du plat: 3
+Quantité : 4
+Montant versé : 4 000 FCFA
+
+Commande excutée: PS C:\Users\DELL\Downloads\cantine-KAMAGATE-Junior> node .\cantine.js
+
+sortie obtenue : 
+NOM DU CLIENT : Awa
+LES DIFFERENTES PORTIONS COMMANDEES :
+portion 1 de : Alloco-oeuf fait: 1000 F CFA.
+portion 2 de : Alloco-oeuf fait: 1000 F CFA.
+portion 3 de : Alloco-oeuf fait: 1000 F CFA.
+portion 4 de : Alloco-oeuf fait: 1000 F CFA.
+TOTAL DE LA COMMANDE : 4000 F CFA.
+MONTANT VERSE : 4000 F CFA.
+MONNAIE A RENDRE:0 FCFA
