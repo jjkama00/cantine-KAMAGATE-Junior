@@ -39,7 +39,7 @@ console.log (`MONTANT VERSE : ${montantversé} F CFA.`);
 // NOUVEAU CHOIX DE VARIABLES
 let monnaie = montantversé-total;
 let manquant = total-montantversé;
- if (total<montantversé){
+ if (total<=montantversé){
 console.log(`MONNAIE A RENDRE:${monnaie} FCFA`);
 }else{
 console.log(`SOMME MANQUANTE:${manquant} FCFA`);
