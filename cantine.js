@@ -5,6 +5,7 @@ let quantitetexte = "3"
 const montantversé = 5000
 let quantite = Number(quantitetexte);
 // 3- Calculer le montant de la commande
+
 let prixUnitaire
 switch (codeduplat) {
     case 1 :
@@ -26,9 +27,9 @@ function calculerTotal ( prixUnitaire,quantite){
 }
 let total = calculerTotal ( prixUnitaire,quantite);
 // 4- Afficher le recaputilatif
-if (codeduplat<=0){
-console.log (`rentrez un numero de plat valide (entre 1 et 3) s'il vous plait`);
-}else if(codeduplat<=3){
+if (codeduplat<=0 && quantite>=0){
+console.log (`rentrez un numero de plat valide (entre 1 et 3) et/ou une quantité valide (superieur à 0) s'il vous plait !!!`);
+}else if(codeduplat<=3  && quantite>=0){
 console.log(`NOM DU CLIENT : ${client}`);
 console.log(`LES DIFFERENTES PORTIONS COMMANDEES :`);
 for(i=1;i<=quantite;i+=1){
@@ -47,5 +48,5 @@ console.log (`VEUILLEZ S'IL VOUS PLAIT AJOUTER LA SOMME DE ${total-montantversé
  }
  }
  else{
-console.log (`rentrez un numero de plat valide (entre 1 et 3) s'il vous plait`);
+console.log (`rentrez un numero de plat valide (entre 1 et 3) et/ou une quantité valide (superieur à 0) s'il vous plait !!!`);
 }
